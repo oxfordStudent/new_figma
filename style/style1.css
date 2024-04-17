@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*main page*/
+.main{
+    width: 100%;
+    height: 100vh;
+}
+/*navbar*/
+.navbar{
+
+    height: 60px;
+    display:flex;
+    position: static;
+    float: none;
+   background-color: aqua;
+   justify-content: space-evenly;
+}
+
+.nav-logo{
+ 
+    border: 1px solid red
+}
+.nav-searchbar{
+   
+    border: 1px solid orange;
+    display: flex;
+    height: 40px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.search-input{
+    border: none;
+    width: 100%;
+    height: 100%;
+   
+   
+
+}
+.nav-searchbar{
+    width: 30px;
+    display: flex;
+    padding: 10px;
+   
+
+}
+.nav-menu{
+   
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    ga
+}.nav-links a{
+    padding-right: 20px;
+}
+.nav-button{
+    border: 1px solid greenyellow;
+}

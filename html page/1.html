@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .main{
+        display:inline-grid;
+       
+  grid-template-columns: auto auto auto;
+ 
+  background-color: #2196F3;
+ column-gap: 10px;
+
+
+    }
+.i{
+    display: flex;
+   
+}
+  .item1{
+     grid-column: 1;
+  grid-row: 1/span 2;
+ }
+ .item2{
+        grid-column: 2;
+
+ }
+ .item3{
+    grid-column:3;
+ }
+  
+ 
+
+
+
+   
+   .item5{
+       grid-column: 2;
+}
+.item5{
+        grid-column-start:3;
+  grid-column-end: 3;
+  grid-row-start:2;
+  grid-row-end:2;
+}
+.item6{
+        grid-column-start:;
+  grid-column-end: ;
+  grid-row-start:2;
+  grid-row-end:2;
+}
+
+
+    
+    </style>
+</head>
+<body>
+    <div class="main">
+        <span class="item1 i"><img src="../images/gallery1.png"></span>
+        <span class="item2 i"><img src="../images/gallery2.png"></span>
+        <span class="item3 i"><img src="../images/gallery3.png"></span>
+        <span class="item4 i"><img src="../images/gallery4.png"></span>
+        <span class="item5 i"><img src="../images/gallery5.png"></span>
+        <span class="item6 i"><img src="../images/gallery6.png"></span>
+        <span class="item7 i"><img src="../images/gallery7.png"></span>
+        <span class="item8 i"><img src="../images/gallery8.png"></span>
+        <span class="item9 i"><img src="../images/gallery9.png"></span>
+        
+    </div>
+</body>
+</html>
